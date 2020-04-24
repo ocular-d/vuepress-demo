@@ -1,3 +1,7 @@
+---
+footer: Awesome Tech | ocular-d 
+---
+
 :::tip Key Point
 This page is an overview of documentation and related resources.
 :::

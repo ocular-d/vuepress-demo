@@ -1,33 +1,29 @@
 :::tip Key Point
-This page is an overview of the Onna documentation and related resources.
+This page is an overview of documentation and related resources.
 :::
 
 ---
 
-## About Onna
+## Possible Plugins
 
-What is Onna, what are the key concepts and what can you do with Onna.
+Check if these are what we like/want
 
-[Read more about Onna](intro.md "Link to intro page")
+### Reading Time
 
-## Getting Started
+- [GitHub](https://github.com/darrenjennings/vuepress-plugin-reading-time)
 
-First steps with Onna.
+#### Config
 
-Learn about requirements and how to be productive with Onna in less than 10 minutes
+```md
+---
+permalink: /about
+---
 
-## Tutorials
+# About
 
-If you’re a developer who wants to improve your understanding of Onna
-or you might already be familiar with the concepts but don’t yet know how to implement them,
-then these tutorials are a great place to start.
+This post is a {{ $page.readingTime.text }}
+```
 
-## Infrastructure
+## Element Tabs
 
-How to manage infrastructure tasks.
-
-## API Explorer
-
-The [API Explorer](https://developers.onna.com/openapi "Link to Onna API Explorer") is the reference guide for the Onna API.
-
-It's based on the [OpenAPI initiative](https://www.openapis.org/ "Link to OAS initiative").
+- [Github](https://superbiger.github.io/vuepress-plugin-tabs/#preview)

@@ -24,6 +24,11 @@ permalink: /about
 This post is a {{ $page.readingTime.text }}
 ```
 
-## Element Tabs
+### Element Tabs
 
 - [Github](https://superbiger.github.io/vuepress-plugin-tabs/#preview)
+
+### Element UI
+
+- [GitHub](https://lq782655835.github.io/vuepress-plugin-element-ui/#el-tabs)
+

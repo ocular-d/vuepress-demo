@@ -1,5 +1,6 @@
 // .vuepress/config.js
 module.exports = {
+  plugins: ['@vuepress/back-to-top'],
   title: 'Onna Developer Hub',
   base: '/',
   head: [

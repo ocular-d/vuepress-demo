@@ -35,30 +35,41 @@ jobs:
           name: build
           path: ./docs/.vuepress/dist
 
-  links:
-    name: Test Links
+  static-dist-dir:
+    name: Lighthouse
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Download math result for job 1
-        uses: actions/download-artifact@v1
+      - uses: actions/checkout@v2
+      - name: Run Lighthouse against a static dist dir
+      - uses: treosh/lighthouse-ci-action@v2
         with:
-          name: build
-      - shell: bash
-        run: ls -la build
+          # no urls needed, since it uses local folder to scan .html files
+          configPath: './lighthouserc.json'
+  # links:
+  #   name: Test Links
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Download math result for job 1
+  #       uses: actions/download-artifact@v1
+  #       with:
+  #         name: build
+  #     - shell: bash
+  #       run: ls -la build
 
-      - name: Link Checker
-        id: lc
-        uses: peter-evans/link-checker@v1
-        with:
-          args: -d build -x "enterprise\.onna\.com\/*|onna\.io" -r *
+  #     - name: Link Checker
+  #       id: lc
+  #       uses: peter-evans/link-checker@v1
+  #       with:
+  #         args: -d build -x "enterprise\.onna\.com\/*|onna\.io" -r *
 
-      - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v2
-        with:
-          title: Link Checker Report
-          content-filepath: ./link-checker/out.md
-          labels: report, automated issue
+  #     - name: Create Issue From File
+  #       uses: peter-evans/create-issue-from-file@v2
+  #       with:
+  #         title: Link Checker Report
+  #         content-filepath: ./link-checker/out.md
+  #         labels: report, automated issue
 
-      - name: Fail if there were link errors
-        run: exit ${{ steps.lc.outputs.exit_code }}
+  #     - name: Fail if there were link errors
+  #       run: exit ${{ steps.lc.outputs.exit_code }}

@@ -40,6 +40,7 @@ jobs:
       with:
         configPath: "./lighthouserc.json"
         temporaryPublicStorage: true
+        uploadArtifacts: true
 
   # static-dist-dir:
   #   name: Lighthouse

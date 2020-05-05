@@ -21,15 +21,15 @@ jobs:
       with:
         node-version: '10.18'
 
-    - name: install
+    - name: Install
       working-directory: .
       run: yarn install
 
-    - name: build
+    - name: Build
       working-directory: .
       run: yarn docs:build
 
-    - name: upload build
+    - name: Upload HTML
       uses: actions/upload-artifact@v1
       with:
           name: build
@@ -40,7 +40,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - name: Getting HTML
+      - uses: actions/download-artifact@v1
+        with:
+          name: build
 
       - name: Run Lighthouse against a static dist dir
         uses: treosh/lighthouse-ci-action@v2

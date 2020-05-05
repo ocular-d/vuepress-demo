@@ -1,4 +1,4 @@
-name: Build
+name: Lighthouse
 
 on:
   # Trigger the workflow on push or pull request,
@@ -39,7 +39,7 @@ jobs:
       uses: treosh/lighthouse-ci-action@v2
       with:
         configPath: "./lighthouserc.json"
-        temporaryPublicStorage: true
+        #temporaryPublicStorage: true
         uploadArtifacts: true
 
   # static-dist-dir:

@@ -21,15 +21,15 @@ jobs:
       with:
         node-version: '10.18'
 
-    - name: Install
+    - name: install
       working-directory: .
       run: yarn install
 
-    - name: Build
+    - name: build
       working-directory: .
       run: yarn docs:build
 
-    - name: Upload HTML
+    - name: upload build
       uses: actions/upload-artifact@v1
       with:
           name: build
@@ -40,8 +40,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Getting HTML
-      - uses: actions/download-artifact@v1
+      - name: Download HTML
+        uses: actions/download-artifact@v1
         with:
           name: build
 

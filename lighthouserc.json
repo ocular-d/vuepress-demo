@@ -1,7 +1,8 @@
 {
   "ci": {
+    "url": ["http://localhost/"],
     "collect": {
-      "staticDistDir": "./build"
+      "staticDistDir": "./docs/.vuepress/dist"
     }
   }
 }

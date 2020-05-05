@@ -40,13 +40,13 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Download Config
+        uses: actions/checkout@master
+
       - name: Download HTML
         uses: actions/download-artifact@v1
         with:
           name: build
-
-      - name: Download Config
-        uses: actions/checkout@master
 
       - name: Run Lighthouse against a static dist dir
         uses: treosh/lighthouse-ci-action@v2

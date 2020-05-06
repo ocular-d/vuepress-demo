@@ -38,7 +38,7 @@ jobs:
     - name: Run Lighthouse CI
       uses: treosh/lighthouse-ci-action@v2
       with:
-        configPath: "./lighthouserc.json"
+        configPath: ".ci/lighthouserc.json"
         #temporaryPublicStorage: true
         uploadArtifacts: true
 

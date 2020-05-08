@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: remark
+    - name: Linting Markdown
       id: remark
       uses: ocular-d/action-remark@0.0.9
       with:

@@ -1,8 +1,8 @@
 name: Docs Linting
- on:
-   push:
-     paths:
-     - 'docs/**'
+on:
+  push:
+    paths:
+    - 'docs/**'
 
 jobs:
   editorial:

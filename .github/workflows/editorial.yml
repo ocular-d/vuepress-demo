@@ -1,9 +1,9 @@
 name: Docs Linting
 on: [push]
-# on:
-#   push:
-#     paths:
-#     - 'docs/**'
+ on:
+   push:
+     paths:
+     - 'docs/**'
 
 jobs:
   editorial:

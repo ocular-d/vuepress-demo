@@ -14,3 +14,4 @@ This guide is written for Linux and macOS, depending on your Operating System yo
 
 ### Requirements
 
+Here the list.

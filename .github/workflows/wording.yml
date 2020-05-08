@@ -5,7 +5,7 @@ on:
     - 'docs/**'
 
 jobs:
-  editorial:
+  Wording:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout

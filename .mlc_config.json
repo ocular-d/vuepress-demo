@@ -1,0 +1,7 @@
+{
+    "ignorePatterns": [
+        { "pattern": "^https://enterprise.sven.com/" },
+        { "pattern": "^https://sven.th" }
+    ]
+
+}

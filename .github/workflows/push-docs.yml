@@ -1,0 +1,39 @@
+name: Lint Docs
+
+on:
+  push:
+    # Sequence of patterns matched against refs/heads
+    #branches-ignore:
+    #  - 'master'  # Ignore push events to branches matching master
+    #  - 'develop' # Ignore push events to branches matching develop
+
+    paths:
+      - 'docs/**'
+
+jobs:
+  markdown-link-check:
+    strategy:
+      matrix:
+        file-extension: [.md]
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.mlc_config.json'
+        folder-path: 'docs'
+
+  editorial:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Vale
+      uses: errata-ai/vale-action@v1.0.4
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+

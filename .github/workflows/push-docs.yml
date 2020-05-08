@@ -11,7 +11,7 @@ on:
       - 'docs/**'
 
 jobs:
-  markdown-link-check:
+  Markdown-Link-Check:
     strategy:
       matrix:
         file-extension: [.md]
@@ -26,7 +26,7 @@ jobs:
         config-file: '.mlc_config.json'
         folder-path: 'docs'
 
-  editorial:
+  Wording:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -36,4 +36,14 @@ jobs:
       uses: errata-ai/vale-action@v1.0.4
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  Remark:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: remark
+      id: remark
+      uses: ocular-d/action-remark@0.0.9
+      with:
+        check_dir: 'docs'
 

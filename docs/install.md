@@ -25,3 +25,9 @@ It's recommended to also install `venv` and `pip` to handle requirements.
 - [pip](https://pypi.org/project/pip/ "Link to pip")
 - [venv](https://docs.python.org/3/library/venv.html "Link to venv docs")
 - [aiohttp](https://docs.aiohttp.org/en/stable/ "Link to aiohttp library")
+- Yarn
+- Node
+- More 1
+- More 2
+- More 3
+- More 4

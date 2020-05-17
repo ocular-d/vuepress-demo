@@ -1,0 +1,19 @@
+{
+  "ci": {
+    "url": ["http://localhost/"],
+    "collect": {
+      "staticDistDir": "./docs/.vuepress/dist"
+    }
+  },
+  "assert": {
+    "preset": "lighthouse:recommended",
+      "assertions": {
+        "offscreen-images": "off",
+        "uses-webp-images": "off",
+        "color-contrast": "off",
+        "uses-http2": "off",
+        "tap-targets": "off",
+        "is-on-https": "off"
+    }
+  }
+}

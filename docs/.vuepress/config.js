@@ -1,5 +1,9 @@
 // .vuepress/config.js
 module.exports = {
+  plugins: [
+    '@vuepress/back-to-top',
+    '@vuepress/nprogress'
+],
   title: 'Developer Hub',
   base: '/',
   head: [

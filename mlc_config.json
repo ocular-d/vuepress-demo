@@ -1,0 +1,7 @@
+{
+    "ignorePatterns": [
+        { "pattern": "^https://sven.teh" },
+        { "pattern": "^https://sven.th" }
+    ]
+
+}

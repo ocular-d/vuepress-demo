@@ -1,6 +1,6 @@
 // .vuepress/config.js
 module.exports = {
-  title: 'Onna Developer Hub',
+  title: 'Developer Hub',
   base: '/',
   head: [
     [

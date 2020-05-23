@@ -1,12 +1,12 @@
 ---
 home: true
-tagline: Fun
-description: Here a description
+tagline: VuePress And GitHub Actions For Technical Writing
+description: Example Of VuePress And GitHub ActionsFor Technical Writing
 meta:
   - name: "og:description"
-    content: Bla
+    content: Example Of VuePress And GitHub Actions For Technical Writing
   - name: keywords
-    content: API documentation developer hub
+    content: API documentation developer hub github actions
 footer: Awesome
 ---
 

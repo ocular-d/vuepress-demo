@@ -2,7 +2,8 @@
 module.exports = {
   plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/nprogress'
+    '@vuepress/nprogress',
+    'vuepress-plugin-reading-time'
 ],
   title: 'VuePress Demo',
   base: '/',
@@ -20,8 +21,8 @@ module.exports = {
       title: 'Getting Started',
       collapsable: false,
       children: [
-          'install',
-          'test1'
+          'contribute',
+          'test'
       ]
       }
     ]

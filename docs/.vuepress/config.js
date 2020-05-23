@@ -4,18 +4,13 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/nprogress'
 ],
-  title: 'Developer Hub',
+  title: 'VuePress Demo',
   base: '/',
   head: [
-    [
-      "script",
-      {
-        src:
-          "https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"
-      }
-    ]
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
   ],
   themeConfig: {
+    lastUpdated: 'Last Updated',
     nav: [
       { text: 'Help Center', link: 'https://google.com', target:'_self', rel:'' },
       { text: 'API Explorer', link: '/openapi/', target:'_blank' }

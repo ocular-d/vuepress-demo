@@ -40,6 +40,12 @@
       </p>
     </div>
   </div>
+  <div
+      v-if="data.footer"
+      class="footer"
+    >
+      {{ data.footer }}
+  </div>
 </template>
 
 <script>

@@ -29,3 +29,5 @@ A great way to contribute to the project is to send a detailed report when you e
 We'd love to see your pull requests!
 
 However, any significant improvement should be associated to an existing feature request or bug report.
+
+Add here style guides, etc

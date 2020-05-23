@@ -1,10 +1,13 @@
 ---
 meta:
+home: true
+tagline: This will be my catchy tagline
+description: VuePress Demo - Developer Hub - Technical Writing - Docs As Code
   - name: "og:description"
     content: Opengraph description
   - name: keywords
-    content: openapi docs 
-footer: Awesome Tech | ocular-d 
+    content: openapi docs writing ci github-actions github actions
+footer: Awesome Tech | ocular-d
 ---
 
 :::tip Key Point
@@ -15,8 +18,7 @@ This page is an overview of the documentation and related resources.
 
 # About
 
-<TeaserBox msg="Not work" />
-## Possible Plugins
+
 
 Check if these are what we like/want
 

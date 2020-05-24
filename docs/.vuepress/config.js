@@ -12,19 +12,41 @@ module.exports = {
   ],
   themeConfig: {
     lastUpdated: 'Last Updated',
+    repo: 'ocular-d/vuepress-demo',
     nav: [
       { text: 'Help Center', link: 'https://google.com', target:'_self', rel:'' },
       { text: 'API Explorer', link: '/openapi/', target:'_blank' }
     ],
     sidebar: [
       {
+      title: 'About',
+      collapsable: false,
+      children: [
+          'contribute'
+        ]
+      },
+      {
       title: 'Getting Started',
       collapsable: false,
       children: [
-          'contribute',
-          'test'
-      ]
-      }
+          'install'
+        ]
+      },
+      {
+      title: 'VuePress',
+      collapsable: false,
+      children: [
+          'vuepress-plugins'
+        ]
+      },
+      {
+        title: 'GitHub Actions',
+        collapsable: false,
+        children: [
+            'contribute',
+            'test'
+          ]
+      },
     ]
   }
 }

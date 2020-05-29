@@ -1,21 +1,14 @@
 <template>
   <div class="custom-block depcreated">
-  <p class="custom-block-title">⚠️ Depcreated</p>
-  <p>
-  {{ msg }}
-  </p>
+    <p class="custom-block-title">⚠️ Depcreated</p>
+    <p>Legenda: {{ msg }} - {{ date }}</p>
   </div>
 </template>
-
 <script>
 export default {
-  name: "display-text",
-  props: {
-    msg: String
+  props: ['msg', 'date'],
   }
-};
 </script>
-
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -33,4 +26,3 @@ export default {
   background-color: #eff3f7;
 }
 </style>
-

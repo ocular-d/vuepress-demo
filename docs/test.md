@@ -8,7 +8,11 @@ Hello world
 
 <TestThis />
 
+<Test2 msg="Hello World" date="2222" />
 
+
+
+<Target msg="foo" date="2022"></Target>
 
 This is the year {{ $page.frontmatter.date }}
 
@@ -39,3 +43,7 @@ export default {
   }
 }
 </script>
+
+<div class="rounded shadow-lg w-1/2 m-10 p-5 bg-green">
+    <p class="text-red text-lg text-center font-sans">I'm a red text!</p>
+</div>

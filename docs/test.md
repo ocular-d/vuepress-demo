@@ -12,7 +12,7 @@ Hello world
 
 
 
-<Target msg="foo" date="2022"></Target>
+<Target msg=".foo" date="June 2020"></Target>
 
 This is the year {{ $page.frontmatter.date }}
 

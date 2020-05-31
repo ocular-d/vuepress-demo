@@ -2,16 +2,18 @@
 home: true
 tagline: VuePress For Technical Writing
 description: Example Of VuePress And GitHub ActionsFor Technical Writing
+actionText: Get Started →
+actionLink: /guide/
 meta:
   - name: "og:description"
     content: Example Of VuePress And GitHub Actions For Technical Writing
   - name: keywords
     content: API documentation developer hub github actions
-footer: Awesome
+footer: ocular-d ❤️
 ---
 
 <div style="text-align: center">
-  ![Picture of VS Code with docs linting ](./assets/docs-ci.png)
+  <Bit/>
 </div>
 
 <div class="features">

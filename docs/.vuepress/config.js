@@ -14,7 +14,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     repo: 'ocular-d/vuepress-demo',
     nav: [
-      { text: 'Help Center', link: 'https://google.com', target:'_self', rel:'' },
+      { text: 'Guide', link: 'https://google.com', target:'_self', rel:'' },
       //{ text: 'API Explorer', link: '/openapi/', target:'_blank' }
     ],
     sidebar: [

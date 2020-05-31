@@ -23,7 +23,7 @@ footer: ocular-d ❤️
   </div>
   <div class="feature">
     <h2>Vue-Powered</h2>
-    <p>Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.</p>
+    <p>Enjoy the dev experience of Vue + webpack, use Vue components in Markdown, and develop custom themes with Vue.</p>
   </div>
   <div class="feature">
     <h2>Docs As Code</h2>

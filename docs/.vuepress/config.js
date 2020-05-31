@@ -15,7 +15,7 @@ module.exports = {
     repo: 'ocular-d/vuepress-demo',
     nav: [
       { text: 'Help Center', link: 'https://google.com', target:'_self', rel:'' },
-      { text: 'API Explorer', link: '/openapi/', target:'_blank' }
+      //{ text: 'API Explorer', link: '/openapi/', target:'_blank' }
     ],
     sidebar: [
       {

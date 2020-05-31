@@ -1,6 +1,6 @@
 ---
 home: true
-tagline: VuePress And GitHub Actions For Technical Writing
+tagline: VuePress For Technical Writing
 description: Example Of VuePress And GitHub ActionsFor Technical Writing
 meta:
   - name: "og:description"
@@ -10,50 +10,21 @@ meta:
 footer: Awesome
 ---
 
-:::tip Key Point
-This page is an overview of the documentation and related resources.
-:::
+<div style="text-align: center">
+  ![Picture of VS Code with docs linting ](./assets/docs-ci.png)
+</div>
 
----
-
-
-
-# About
-
-
-
-Check if these are what we like/want
-
-### Reading Time
-
-- [GitHub](https://github.com/darrenjennings/vuepress-plugin-reading-time)
-
-#### Config
-
-```md
----
-permalink: /about
----
-
-# About
-
-This post is a {{ $page.readingTime.text }}
-```
-
-### Element Tabs
-
-- [Github](https://superbiger.github.io/vuepress-plugin-tabs/#preview)
-
-### Element UI
-
-- [GitHub](https://lq782655835.github.io/vuepress-plugin-element-ui/#el-tabs)
-
-### More
-
-- https://vuepress.tools/plugins/vuepress-plugin-simple-seo.html
-- https://github.com/HiYue/vuepress-plugin-contact-us
-- https://vuepress.tools/plugins/vuepress-plugin-robots.html
-- https://github.com/znicholasbrown/vuepress-plugin-selected-text-popup#readme
-- https://github.com/dovy/vuepress-plugin-clipboard-copy/blob/master/package.json
-- https://github.com/znicholasbrown/vuepress-plugin-code-copy
-- https://www.npmjs.com/package/vuepress-plugin-glossary
+<div class="features">
+  <div class="feature">
+    <h2>Simplicity First</h2>
+    <p>Minimal setup with markdown-centered project structure helps you focus on writing.</p>
+  </div>
+  <div class="feature">
+    <h2>Vue-Powered</h2>
+    <p>Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.</p>
+  </div>
+  <div class="feature">
+    <h2>Docs As Code</h2>
+    <p>VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.</p>
+  </div>
+</div>

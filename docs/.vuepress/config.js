@@ -14,6 +14,9 @@ module.exports = {
   themeConfig: {
     lastUpdated: "Last Updated",
     repo: "ocular-d/vuepress-demo",
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: 'Help us improve this page!',
     nav: [
       { text: "Home", link: "/", target: "_self", rel: "" },
       //{ text: 'API Explorer', link: '/openapi/', target:'_blank' }

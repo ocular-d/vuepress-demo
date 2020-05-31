@@ -25,7 +25,7 @@ module.exports = {
       {
         title: "Guide",
         collapsable: false,
-        children: ["guide/install", "guide/actions"],
+        children: ["guide/actions"],
       },
       {
         title: "Contribute",

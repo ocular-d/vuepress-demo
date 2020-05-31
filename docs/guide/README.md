@@ -37,3 +37,5 @@ Consistent, tested documentation can help your product and your development cycl
 
 Consistency means that you write your documentation according to a defined standard reflecting your product and company.
 It also means that you can find information quickly, and understand that information when you encounter problems.
+
+TODO: ADD here CI part and that is does not matter which CI

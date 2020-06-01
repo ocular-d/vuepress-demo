@@ -19,6 +19,7 @@ What is VuePress Demo.
 
 ---
 
+[[toc]]
 
 ## Features
 
@@ -43,3 +44,7 @@ TODO:
 - ADD here CI part and that is does not matter which CI
 - Add some words about used QA checks
 - Add `VuePress` to `vale` checks
+
+## Documentation Checks
+
+Quality assurance checks

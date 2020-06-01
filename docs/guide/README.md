@@ -21,8 +21,16 @@ What is VuePress Demo.
 
 [[toc]]
 
-## Features
+## About
 
+<DisclaimerMain />
+
+This demo features a [VuePress](https://vuepress.vuejs.org/ "Link to VuePress website") setup tailored for (technical) documentation.
+
+It includes a list of [plugins](https://vuepress.vuejs.org/plugin/ "Link to VuePress plugins") which can enhance the
+functionality of VuePress as documentation base.
+
+In addition this setup showcases the usage of [GitHub Actions](https://github.com/features/actions "Link to GitHub Actions on GitHub") for [Docs As Code](#docs-as-code "Docs As Code"), includes a editorial style guide and one for Markdown.
 
 ## Docs As Code
 
@@ -39,7 +47,7 @@ Consistent, tested documentation can help your product and your development cycl
 Consistency means that you write your documentation according to a defined standard reflecting your product and company.
 It also means that you can find information quickly, and understand that information when you encounter problems.
 
-Using the sae tooling may also include [CI/CD](#continuous-integration)(Continuous Integration).
+Using the same tooling may also include [CI/CD](#continuous-integration)(Continuous Integration).
 
 ![CirecleCI](../assets/cci-base.png)
 

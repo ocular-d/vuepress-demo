@@ -39,6 +39,8 @@ Consistent, tested documentation can help your product and your development cycl
 Consistency means that you write your documentation according to a defined standard reflecting your product and company.
 It also means that you can find information quickly, and understand that information when you encounter problems.
 
+Using the sae tooling may also include [CI/CD](#continuous-integration)(Continuous Integration).
+
 TODO:
 
 - ADD here CI part and that is does not matter which CI
@@ -48,3 +50,11 @@ TODO:
 ## Documentation Checks
 
 Quality assurance checks
+
+## Continuous Integration
+
+Docs As Code means today CI/CD.
+
+Does not matter if you use Travis, CircleCi (add here more)
+
+This example uses GitHub Actions

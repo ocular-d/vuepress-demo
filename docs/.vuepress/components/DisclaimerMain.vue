@@ -2,7 +2,7 @@
   <div class="custom-block depcreated">
     <p class="custom-block-title">⚠️ Disclaimer</p>
     <p>
-    <b>This demo shows only one possible showcase!</b><br>
+    <b>This demo shows only one possible example!</b><br>
     Like always there is <b>no</b> golden solution.<br>
     It really depends on your needs and what works best for you.
   </p>

@@ -19,3 +19,23 @@ Overview of VuePress plugins used in this setup
 ---
 
 ## About
+
+List of VuePress plugins used in this setup.
+
+Add here more
+
+## Plugins For Writing
+
+- UI Tab
+- Code Copy
+
+## Plugins For SEO
+
+- Seo
+- sitemap
+- robot.txt
+
+## General Plugins Used
+
+- progress bar
+

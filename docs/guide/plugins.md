@@ -28,6 +28,7 @@ Add here more
 
 - UI Tab
 - Code Copy
+- reading time
 
 ## Plugins For SEO
 

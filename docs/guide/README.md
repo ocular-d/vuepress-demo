@@ -41,6 +41,8 @@ It also means that you can find information quickly, and understand that informa
 
 Using the sae tooling may also include [CI/CD](#continuous-integration)(Continuous Integration).
 
+![CirecleCI](../assets/cci-base.png)
+
 TODO:
 
 - ADD here CI part and that is does not matter which CI

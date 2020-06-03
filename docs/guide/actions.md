@@ -8,6 +8,8 @@ meta:
     content: API documentation QA GitHub CI/CD
 ---
 
+<Important />
+
 # GitHub Actions
 
 :::tip Key Point
@@ -24,7 +26,7 @@ Here general short info about actions with links
 
 ## Strategy Wise Words (check in talk what I used there)
 
-::: tip 
+::: tip
 Be smart and quick
 Check only what changed
 :::

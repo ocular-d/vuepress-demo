@@ -3,12 +3,18 @@ export const FEATURES = [
     title: "Vue-Powered",
     icon: "package",
     details:
-      "Bocadillo is an ASGI web framework designed to help you build, test and deploy web APIs as easily as possible. It focuses on modularity, has thorough documentation, and integrates seamlessly with third-party async libraries."
+      "Enjoy the dev experience of Vue + webpack, use Vue components in Markdown, and develop custom themes with Vue."
   },
   {
     title: "Docs As Code",
-    icon: "broadcast",
+    icon: "file-code",
     details:
-      "Embrace asynchronous programming and use the built-in WebSocket and SSE support to design real-time, highly-concurrent systems."
-  }
+      "Use developer tools and techniques for creating stunning (technical) documentation."
+  },
+  {
+    title: "Simplicity First",
+    icon: "markdown",
+    details:
+      "Minimal setup with Markdown-centered project structure helps you focus on writing."
+  },
 ];

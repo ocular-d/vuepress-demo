@@ -1,6 +1,6 @@
 ---
 home: true
-tagline: VuePress For Technical Writing
+tagline: VuePress For (Technical) Writing
 description: Example Of VuePress And GitHub ActionsFor Technical Writing
 actionText: Get Started →
 actionLink: /guide/

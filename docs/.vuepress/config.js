@@ -30,7 +30,7 @@ module.exports = {
       {
         title: "Contribute",
         collapsable: false,
-        children: ["contribute", "test", "guide/actions"],
+        children: ["contribute", "test", "guide/actions", "acknowledgment"],
       }
     ]
   }

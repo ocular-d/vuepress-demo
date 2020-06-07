@@ -18,14 +18,14 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     nav: [
-      { text: "Home", link: "/intro", target: "_self", rel: "" },
+      { text: "Home", link: "/", target: "_self", rel: "" },
       //{ text: 'API Explorer', link: '/openapi/', target:'_blank' }
     ],
     sidebar: [
       {
         title: "Guide",
         collapsable: false,
-        children: ["intro", "plugins", "checks", "actions"],
+        children: ["guide/plugins", "guide/checks", "guide/actions"],
       },
       {
         title: "Contribute",

@@ -49,7 +49,7 @@ It also means that you can find information and understand that information when
 
 Using the same tooling may also include [CI/CD](#continuous-integration)(Continuous Integration).
 
-![CircleCI](../assets/cci-base.png)
+![CircleCI](./assets/cci-base.png)
 
 TODO:
 
@@ -68,7 +68,7 @@ Documentation testing is a non-functional test of your content which helps ensur
 
 Docs As Code done right saves you time and money by decreasing the time you spend fixing documentation and increasing its quality.
 
-![GH-Base](../assets/gh-base.png)
+![GH-Base](./assets/gh-base.png)
 
 ## Continuous Integration
 
@@ -79,7 +79,7 @@ Does not matter if you use Travis, CircleCi (add here more)
 This example uses GitHub Actions
 
 
-![CI/CD](../assets/ci-cd.png)
+![CI/CD](./assets/ci-cd.png)
 
 To Check:
 

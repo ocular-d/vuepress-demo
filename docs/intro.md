@@ -26,8 +26,8 @@ What is VuePress Demo.
 
 This demo features a [VuePress](https://vuepress.vuejs.org/ "Link to VuePress website") setup tailored for (technical) documentation.
 
-It includes a list of [plugins](https://vuepress.vuejs.org/plugin/ "Link to VuePress plugins") which can enhance the
-functionality of VuePress as documentation base.
+It includes a list of [plugins](https://vuepress.vuejs.org/plugin/ "Link to VuePress plugins")
+and [components](https://v1.vuepress.vuejs.org/guide/using-vue.html#using-components "Link explaining components")which can enhance the functionality of VuePress as documentation base.
 
 In addition this setup showcases the usage of [GitHub Actions](https://github.com/features/actions "Link to GitHub Actions on GitHub") for [Docs As Code](#docs-as-code "Docs As Code"),
 includes a editorial style guide and one for Markdown.

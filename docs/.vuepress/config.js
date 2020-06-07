@@ -4,6 +4,7 @@ module.exports = {
     "@vuepress/back-to-top",
     "@vuepress/nprogress",
     "vuepress-plugin-reading-time",
+    "vuepress-plugin-code-copy"
   ],
   title: "VuePress Demo",
   base: "/",
@@ -25,7 +26,7 @@ module.exports = {
       {
         title: "Guide",
         collapsable: false,
-        children: ["intro", "plugins", "checks", "actions"],
+        children: ["intro", "plugins", "components", "checks", "actions"],
       },
       {
         title: "Contribute",

@@ -1,5 +1,5 @@
 ---
-title: Documentation Checks
+title: Documentation (QA) Checks
 description: Quality Assurance Checks For Documentation
 meta:
   - name: "og:description"

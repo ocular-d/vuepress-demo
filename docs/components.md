@@ -1,17 +1,17 @@
 ---
-title: VuePress Plugins
-description: VuePress Plugins Overview
+title: VuePress Components
+description: VuePress Components Overview
 meta:
   - name: "og:description"
-    content: VuePress Plugins Overview
+    content: VuePress Components Overview
   - name: keywords
-    content: API documentation QA GitHub CI/CD VuePress Plugins
+    content: API documentation QA GitHub CI/CD VuePress Components
 ---
 
-# VuePress Plugins
+# VuePress Components
 
 :::tip Key Point
-Overview of VuePress plugins used in this setup
+Overview of VuePress components used in this setup
 
 :bulb: {{ $page.readingTime.text }}
 :::

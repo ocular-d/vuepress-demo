@@ -57,11 +57,19 @@ Otherwise it will be treated as an inline element and wrapped inside a `<p>` tag
 
 For more information check the [official docs](https://vuepress.vuejs.org/guide/using-vue.html "Link to VuePress docs")
 
-## Plugins For Writing
+## Used Components
 
-- UI Tab
-- Code Copy
-- reading time
+These components are uses in this demo setup.
+
+### Disclaimer
+
+Used on the [introduction site](./intro#about)
+
+```md
+<DisclaimerMain />
+```
+
+<DisclaimerMain />
 
 ## Plugins For SEO
 

@@ -70,14 +70,25 @@ Docs As Code done right saves you time and money by decreasing the time you spen
 
 ![GH-Base](./assets/gh-base.png)
 
-## Continuous Integration
+## Continuous Integration And Deploy
 
-Docs As Code means today CI/CD.
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration "Link to Wikipedia, explaining CI")
+for every change submitted to an application - even to development branches -
+it’s built and tested automatically and continuously, ensuring the introduced changes pass all tests, guidelines, and code compliance standards you established for your app.
 
-Does not matter if you use Travis, CircleCi (add here more)
+[Continuous Deployment](https://continuousdelivery.com/ "Link explaining CD") is a further step beyond Continuous Integration, similar to Continuous Delivery.
+The difference is that instead of deploying your application manually, you set it to be deployed automatically.
+It does not require human intervention at all to have your application deployed.
 
-This example uses GitHub Actions
+This demo uses [GitHub Actions](https://github.com/features/actions "Link to GitHub Actions on GitHub").
 
+:::tip
+
+[GitHub Actions](https://github.com/features/actions "Link to GitHub Actions on GitHub") is only *one* possibility!
+
+The same can be done with [CircleCI](https://circleci.com/ "Link to CircleCI"), [Jenkins](https://www.jenkins.io/ "link to Jenkins"), [Drone](https://drone.io/ "Link to Drone CI"), [GitLab](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/ "Link to GitLab"), [Buildkite](https://buildkite.com/ "Link to Builkite") or every other CI/CD system.
+
+:::
 
 ![CI/CD](./assets/ci-cd.png)
 

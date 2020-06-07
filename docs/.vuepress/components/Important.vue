@@ -1,7 +1,7 @@
 <template>
   <div class="content deprecation-warning">
     <p>
-      <strong>Warning:</strong> Bocadillo is now <strong>UNMAINTAINED</strong>.
+      <strong>Important:</strong> We <strong>LOVE</strong> Turtles!
       Users are recommended to migrate to a supported alternative, such as
       <a href="https://www.starlette.io" target="_blank" rel="noreferrer"
         >Starlette</a

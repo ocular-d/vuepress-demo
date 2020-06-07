@@ -18,6 +18,8 @@ Overview of VuePress components used in this setup
 
 ---
 
+[[toc]]
+
 ## Components
 
 Components are reusable [Vue](https://vuejs.org/v2/guide/components.html "Link to Vue docs about components") instances.
@@ -70,6 +72,16 @@ Used on the [introduction site](./intro#about)
 ```
 
 <DisclaimerMain />
+
+### Action Link
+
+This component add a "Action Link Button"
+
+```md
+<b-action-link to="/intro" text="Learn more" :primary="false"/>
+```
+
+<b-action-link to="/intro" text="Learn more" :primary="false"/>
 
 ## Plugins For SEO
 

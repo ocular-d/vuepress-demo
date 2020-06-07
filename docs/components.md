@@ -83,12 +83,24 @@ This component add a "Action Link Button"
 
 <b-action-link to="/intro" text="Learn more" :primary="false"/>
 
-## Plugins For SEO
+### Collapse Text
 
-- Seo
-- sitemap
-- robot.txt
+Blank lines are required both before and after the <collapse> and </collapse> tags.
 
-## General Plugins
+```md
+...
 
-- progress bar
+<collapse-text hidden title="...">
+
+...
+
+</collapse-text>
+```
+
+<collapse-text hidden title="CLI Options">
+
+Hello World
+
+</collapse-text>
+
+### Next

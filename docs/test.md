@@ -21,6 +21,11 @@ This is the year {{ $page.frontmatter.date }}
 
 ### Badge <Badge text="beta" type="warning"/> <Badge text="default theme"/>
 
+<collapse-text hidden title="foo">
+
+...
+
+</collapse-text>
 
 ## Script & Style Hoisting
 

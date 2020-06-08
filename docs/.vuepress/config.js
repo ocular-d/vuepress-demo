@@ -10,7 +10,8 @@ module.exports = {
   base: "/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
-    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }]
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js' }]
   ],
   themeConfig: {
     lastUpdated: "Last Updated",
@@ -20,7 +21,7 @@ module.exports = {
     editLinkText: 'Help us improve this page!',
     nav: [
       { text: "Home", link: "/intro", target: "_self", rel: "" },
-      //{ text: 'API Explorer', link: '/openapi/', target:'_blank' }
+      { text: 'API Explorer', link: '/openapi/', target:'_blank' }
     ],
     sidebar: [
       {

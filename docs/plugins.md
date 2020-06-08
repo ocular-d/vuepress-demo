@@ -1,6 +1,7 @@
 ---
 title: VuePress Plugins
 description: VuePress Plugins Overview
+pageClass: element-tab-class
 meta:
   - name: "og:description"
     content: VuePress Plugins Overview
@@ -26,7 +27,30 @@ Add here more
 
 ## Plugins For Writing
 
-- UI Tab
+
+
+### Element-Tabs
+
+<!--lint disable -->
+
+:::: tabs
+::: tab Markdown
+__Markdown content__
+:::
+::: tab JavaScript
+``` javascript
+() => {
+  console.log('Javascript code example')
+}
+```
+:::
+::::
+
+
+<!--lint disable -->
+
+[Plugin website](https://superbiger.github.io/vuepress-plugin-tabs/ "Link to website of element-tabs").
+
 - Code Copy
 - reading time
 

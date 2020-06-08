@@ -4,7 +4,8 @@ module.exports = {
     "@vuepress/back-to-top",
     "@vuepress/nprogress",
     "vuepress-plugin-reading-time",
-    "vuepress-plugin-code-copy"
+    "vuepress-plugin-code-copy",
+    "vuepress-plugin-element-tabs"
   ],
   title: "VuePress Demo",
   base: "/",

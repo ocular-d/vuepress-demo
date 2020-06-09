@@ -9,12 +9,12 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.5.0",
+    "@vuepress/plugin-back-to-top": "^1.5.1",
     "local-web-server": "^4.2.0",
     "markdown-link-check": "^3.8.1",
     "octicons": "^8.5.0",
     "remark-preset-lint-ocular-d": "0.0.3",
-    "vuepress": "^1.5.0",
+    "vuepress": "^1.5.1",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-element-tabs": "^0.2.8",
     "vuepress-plugin-reading-time": "^0.1.1",

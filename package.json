@@ -17,7 +17,6 @@
     "vuepress": "^1.5.1",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-element-tabs": "^0.2.8",
-    "vuepress-plugin-reading-time": "^0.1.1",
-    "watchpack": "1.6.1"
+    "vuepress-plugin-reading-time": "^0.1.1"
   }
 }

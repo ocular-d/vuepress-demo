@@ -49,17 +49,31 @@ __Markdown content__
 
 <!--lint disable -->
 
-[Plugin website](https://superbiger.github.io/vuepress-plugin-tabs/ "Link to website of element-tabs").
+- [element-tabs on GitHub ](https://superbiger.github.io/vuepress-plugin-tabs/ "Link to website of element-tabs").
 
-- Code Copy
-- reading time
+### Code-Copy
+
+```shell
+echo "Hello World"
+```
+
+- [vuepress-plugin-code-copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy "code-copy plugin on GitHub")
+
+### Reading-Time
+
+```vue
+{{ $page.readingTime.text }}
+```
+
+Output: {{ $page.readingTime.text }}
+
+- [vuepress-plugin-reading-time](https://github.com/darrenjennings/vuepress-plugin-reading-time "Link to reading-time plugin on GitHub")
 
 ## Plugins For SEO
 
-- Seo
-- sitemap
-- robot.txt
+- [vuepress-plugin-sitemap](https://github.com/ekoeryanto/vuepress-plugin-sitemap "Link to sitemap plugin on GitHub")
+- [vuepress-plugin-robots](https://github.com/HiYue/vuepress-plugin-robots "Link to robot.txt plugin on GitHub" )
 
 ## General Plugins
 
-- progress bar
+- [vuepress-plugin-nprogress](https://github.com/vuepress/vuepress-plugin-nprogress "Link to nprogress plugin on GitHub")

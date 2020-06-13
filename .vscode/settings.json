@@ -3,6 +3,7 @@
         "onna",
         "plone",
         "pronovix",
-        "vue"
+        "vue",
+        "vuepress"
     ]
 }

@@ -2,6 +2,29 @@
 date: 2020
 ---
 
+<div>
+
+<div class="introductoryImage">
+
+<img src="./assets/cci-base.png">
+
+</div>
+
+<h1>Introduction</h1>
+
+<div style="width: 4rem; height: .5rem; margin: .1rem 0rem 2rem .3rem; background-color: #5469d4;"></div>
+
+<h4>Welcome to the Developer Documentation.</h4>
+
+<div class="mobileIntroductoryImage">
+
+<img src="./assets/cci-base.png">
+
+</div>
+
+</div>
+
+
 # Test
 
 Hello world

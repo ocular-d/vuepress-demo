@@ -8,13 +8,7 @@ meta:
     content: API documentation QA GitHub CI/CD VuePress Components
 ---
 
-# VuePress Components
-
-:::tip Key Point
-Overview of VuePress components used in this setup
-
-:bulb: {{ $page.readingTime.text }}
-:::
+<KeyPoint/>
 
 ---
 

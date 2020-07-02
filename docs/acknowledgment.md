@@ -1,6 +1,6 @@
 ---
 title: Acknowledgment
-description: Thank you!
+description: Thank you
 meta:
   - name: "og:description"
     content: Acknowledgment
@@ -8,13 +8,7 @@ meta:
     content: API documentation guide contribute acknowledgment
 ---
 
-# Acknowledgment
-
-:::tip Key Point
-We acknowledge and are grateful to these developers and companies for their contributions to open source.
-
-:bulb: {{ $page.readingTime.text }}
-:::
+<KeyPoint/>
 
 ---
 

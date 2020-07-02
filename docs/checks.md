@@ -8,13 +8,7 @@ meta:
     content: API documentation guide demo checks qa
 ---
 
-# Documentation Checks
-
-:::tip Key Point
-Quality Assurance Checks For Documentation
-
-:bulb: {{ $page.readingTime.text }}
-:::
+<KeyPoint/>
 
 ---
 

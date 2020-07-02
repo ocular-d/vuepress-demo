@@ -8,14 +8,7 @@ meta:
     content: API documentation guide contribute
 ---
 
-# Contribution Guide
-
-:::tip Key Point
-How to contribute.
-Any contribution to is more than welcome!
-
-:bulb: {{ $page.readingTime.text }}
-:::
+<KeyPoint/>
 
 ---
 

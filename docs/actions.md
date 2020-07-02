@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions
-description: GitHub Actions Examples For Docs As Code.
+description: GitHub Actions Examples For Docs As Code
 meta:
   - name: "og:description"
     content: GitHub Actions Examples For Docs As Code
@@ -9,14 +9,7 @@ meta:
 ---
 
 <Important />
-
-# GitHub Actions
-
-:::tip Key Point
-GitHub Actions For Docs As Code.
-
-:bulb: {{ $page.readingTime.text }}
-:::
+<KeyPoint/>
 
 ---
 

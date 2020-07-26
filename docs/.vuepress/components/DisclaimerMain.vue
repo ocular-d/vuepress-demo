@@ -26,7 +26,8 @@ export default {
 	padding: 0.1rem 1.5rem;
 	border-left-width: 0.5rem;
 	border-left-style: solid;
+        border-radius: 0.4rem;
 	margin: 1rem 0;
-  background-color: #eff3f7;
+        background-color: #eff3f7;
 }
 </style>

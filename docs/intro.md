@@ -12,8 +12,6 @@ meta:
 
 ---
 
-[[toc]]
-
 ## About
 
 <DisclaimerMain />

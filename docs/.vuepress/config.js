@@ -5,7 +5,8 @@ module.exports = {
     "@vuepress/nprogress",
     "vuepress-plugin-reading-time",
     "vuepress-plugin-code-copy",
-    "vuepress-plugin-element-tabs"
+    "vuepress-plugin-element-tabs",
+    "vuepress-plugin-right-anchor"
   ],
   title: "VuePress Demo",
   base: "/",
@@ -20,6 +21,7 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
+    sidebarDepth: '0',
     nav: [
       { text: "Home", link: "/intro", target: "_self", rel: "" },
       { text: 'API Explorer', link: '/openapi/', target:'_blank' }

@@ -8,18 +8,18 @@ on:
   #     - master
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@master
 
     - name: setup node
       uses: actions/setup-node@v1
       with:
-        node-version: '10.18'
+        node-version: '16'
 
     - name: install
       working-directory: .
@@ -35,7 +35,7 @@ jobs:
           name: build
           path: ./docs/.vuepress/dist
 
-  
+
   # links:
   #   name: Test Links
   #   needs: build

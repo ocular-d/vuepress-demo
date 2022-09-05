@@ -5,7 +5,6 @@ module.exports = {
     "@vuepress/nprogress",
     "vuepress-plugin-reading-time",
     "vuepress-plugin-code-copy",
-    "vuepress-plugin-element-tabs",
     "vuepress-plugin-right-anchor"
   ],
   title: "VuePress Demo",
@@ -35,7 +34,7 @@ module.exports = {
       {
         title: "Contribute",
         collapsable: false,
-        children: ["contribute", "test", "guide/actions", "acknowledgment"],
+        children: ["contribute", "guide/actions", "acknowledgment"],
       }
     ]
   }

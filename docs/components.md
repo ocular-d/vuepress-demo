@@ -71,11 +71,15 @@ Used on the [introduction site](./intro#about)
 
 This component add a "Action Link Button"
 
+<!-- markdown-link-check-disable -->
+
 ```md
 <b-action-link to="/intro" text="Learn more" :primary="false"/>
 ```
 
 <b-action-link to="/intro" text="Learn more" :primary="false"/>
+
+<!-- markdown-link-check-enable -->
 
 ### Collapse Text
 

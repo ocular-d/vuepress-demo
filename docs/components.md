@@ -8,6 +8,8 @@ meta:
     content: API documentation QA GitHub CI/CD VuePress Components
 ---
 
+<!-- markdown-link-check-disable -->
+
 <KeyPoint/>
 
 ---
@@ -71,15 +73,12 @@ Used on the [introduction site](./intro#about)
 
 This component add a "Action Link Button"
 
-<!-- markdown-link-check-disable -->
-
 ```md
 <b-action-link to="/intro" text="Learn more" :primary="false"/>
 ```
 
 <b-action-link to="/intro" text="Learn more" :primary="false"/>
 
-<!-- markdown-link-check-enable -->
 
 ### Collapse Text
 
@@ -101,4 +100,5 @@ Hello World
 
 </collapse-text>
 
-### Next
+<!-- markdown-link-check-enable -->
+

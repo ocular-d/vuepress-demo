@@ -19,33 +19,7 @@ List of VuePress plugins used in this setup.
 
 Add here more
 
-## Plugins For Writing
-
-
-
-### Element-Tabs
-
-<!--lint disable -->
-
-:::: tabs
-::: tab Markdown
-__Markdown content__
-:::
-::: tab JavaScript
-``` javascript
-() => {
-  console.log('Javascript code example')
-}
-```
-:::
-::::
-
-
-<!--lint disable -->
-
-- [element-tabs on GitHub ](https://superbiger.github.io/vuepress-plugin-tabs/ "Link to website of element-tabs").
-
-### Code-Copy
+## Code-Copy
 
 ```shell
 echo "Hello World"

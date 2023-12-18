@@ -30,7 +30,7 @@ jobs:
       run: yarn docs:build
 
     - name: upload build
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
           name: build
           path: ./docs/.vuepress/dist

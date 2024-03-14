@@ -83,25 +83,3 @@ The same can be done with [CircleCI](https://circleci.com/ "Link to CircleCI"), 
 :::
 
 ![CI/CD](./assets/ci-cd.png)
-
-To Check:
-
-Check for/is we want the next plugs
-
-```json
-"dependencies": {
-    "@vuepress/plugin-back-to-top": "^1.4.1",
-    "@vuepress/plugin-google-analytics": "^1.5.0",
-    "axios": "^0.19.2",
-    "vuepress": "^1.4.1",
-    "vuepress-plugin-code-copy": "^1.0.6",
-    "vuepress-plugin-reading-time": "^0.1.1",
-    "vuepress-plugin-robots": "^1.0.1",
-    "vuepress-plugin-sitemap": "^2.3.1"
-  },
-  "devDependencies": {
-    "husky": "^4.2.5",
-    "markdown-link-check": "^3.8.1",
-    "remark-preset-lint-ocular-d": "0.0.3",
-    "vuepress-plugin-autometa": "^0.1.13"
-```

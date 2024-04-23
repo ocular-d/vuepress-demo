@@ -10,13 +10,13 @@
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.4",
-    "local-web-server": "^4.2.1",
+    "local-web-server": "^5.3.3",
     "markdown-link-check": "^3.8.3",
     "octicons": "^8.5.0",
     "remark-preset-lint-ocular-d": "0.0.3",
     "vuepress": "^1.5.4",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-reading-time": "^0.1.1",
-    "vuepress-plugin-right-anchor": "^0.2.0"
+    "vuepress-plugin-right-anchor": "^0.5.5"
   }
 }
